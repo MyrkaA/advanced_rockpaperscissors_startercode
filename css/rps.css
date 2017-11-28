@@ -1,0 +1,10 @@
+body {
+     background-image:url("http://xboxhut.com/wp-content/uploads/2016/06/pastel-colors-tumblr-background-beach-style-large.jpg");
+     background-repeat:no-repeat;
+}
+.col-sm-12 {
+    text-align:center;
+}
+#title {
+    text-align:center
+}
