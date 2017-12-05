@@ -15,6 +15,30 @@
         // Clear the input box for the next choice
 
 // *************************** YOUR CODE BELOW *******************************
+        var userChoice = ""
+        var computerChoice = ""
+        var winner = ""
+        var choices = ["rock","paper","scissors"]
+
+        $(document).ready(function() {
+                console.log("Hi I'm ready to run javascript");
+                
+                 $("#button").click(function() {
+                
+                        var inputValue = $("#input").val();
+                        $(userChoice).append(inputValue);
+                        $("#choices").append(inputValue);
+                
+                 });
+                 
+                
+                 
+        });
+
+
+
+
+
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
@@ -24,7 +48,10 @@
 
 //FUNCTIONS
 
-
-
 // DOCUMENT READY FUNCTION
+
+
+
+
+
 
