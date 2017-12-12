@@ -26,19 +26,18 @@
                  $("#button").click(function() {
                 
                         var inputValue = $("#input").val();
-                        $(userChoice).append(inputValue);
-                        $("#choices").append(inputValue);
-                
+                        $("#userchoice").append(inputValue);
+                        var x = Math.floor(Math.random()*choices.length);
+                        $(computerChoice).append(choices[x]);
+                        $("#choices").append(choices[x]);
+                        
+                        if (inputValue === "scissors" && x === "scissors") {
+                         $("#result").append("TIE!")
+                        }
+                      
                  });
                  
-                
-                 
         });
-
-
-
-
-
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 

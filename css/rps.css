@@ -8,3 +8,11 @@ body {
 #title {
     text-align:center
 }
+#choices {
+    width:100px;
+    height:100px;
+}
+#result {
+    width:100px;
+    height:100px;
+}
